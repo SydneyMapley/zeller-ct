@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+branch=$(git symbolic-ref --short HEAD)
+
+if [ $branch == main ] || [ $branch == staging];
+then
+# Commented out till I can refactor styled components
+# with something that can be jest tested...
+# yarn test
+yarn lint-staged;
+fi

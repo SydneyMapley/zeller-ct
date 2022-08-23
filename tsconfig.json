@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["lib/components/*"],
+      "@pages/*": ["lib/pages/*"],
+      "@utils/*": ["lib/utils/*"],
+      "@styles/*": ["styles/*"],
+      "@public/*": ["public/*"],
+      "@stitches": ["styles/stitches.config"]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/**.ts",
+    "**/**.tsx",
+    "lib/components/customerFilter"
+  ],
+  "exclude": ["node_modules"]
+}
