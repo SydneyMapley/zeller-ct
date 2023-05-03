@@ -1,4 +1,4 @@
-# **Josh Mapley | Zeller Code Test**
+# **Sydney Mapley | Zeller Code Test**
 
 ### **Foreword**
 
